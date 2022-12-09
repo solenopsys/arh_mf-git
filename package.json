@@ -1,0 +1,12 @@
+{
+  "name": "@solenopsys/sc-fm-git-invicta",
+  "version": "0.9.1",
+  "dependencies": {
+    "echarts": "^5.4.0",
+    "ngx-echarts": "^15.0.1"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "build": "tsc -p tsconfig.lib.json"
+  }
+}
