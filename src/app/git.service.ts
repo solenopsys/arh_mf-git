@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { HStreamService } from "@solenopsys/lib-hyperstreams";
+import { HStreamService } from "@solenopsys/fl-hyperstreams";
 import { map, Observable } from "rxjs";
 import { format } from "echarts";
 

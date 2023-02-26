@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {DataItemInterface, DataListInterface, DataPageConfig} from "@solenopsys/lib-dgraph";
+import {DataItemInterface, DataListInterface, DataPageConfig} from "@solenopsys/fl-dgraph";
 
 import {firstValueFrom, Observable, tap} from "rxjs";
 import {map} from "rxjs/operators";
