@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-git-invicta",
+  "name": "@solenopsys/mf-git",
   "version": "0.9.1",
   "dependencies": {
     "echarts": "^5.4.0",

@@ -48,7 +48,7 @@ module.exports = {
       name: 'git',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/git/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-git/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -104,8 +104,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/git',
-      'packages/modules/git/src/assets/menu.json'
+      'dist/modules/mf-richteri/git',
+      'packages/modules/mf-git/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],
