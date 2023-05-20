@@ -13,7 +13,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES},
-  {provide: 'assets_dir', useValue: "/fm/modules/mf-richteri/git"},
+  {provide: 'assets_dir', useValue: "/fm/modules/mf-git"},
   {provide: 'mod_name', useValue: "git"}
 ]
 

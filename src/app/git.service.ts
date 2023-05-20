@@ -19,7 +19,7 @@ export class GitService {
   }
 
   list(type: string): Observable<any> {
-    return this.hs.createStringQuery("richteri-git-wrapper", JSON.stringify({
+    return this.hs.createStringQuery("git-wrapper", JSON.stringify({
       type: type,
       params: {}
     }), 1).pipe(map(decode)).pipe(map((val: { [key: string]: any }) => {
@@ -37,7 +37,7 @@ export class GitService {
   }
 
   createRepo(name: string): Observable<any> {
-    return this.hs.createStringQuery("richteri-git-wrapper", JSON.stringify({
+    return this.hs.createStringQuery("git-wrapper", JSON.stringify({
       type: "repositoryInit",
       params: { "name": name }
     }), 1).pipe(map(decode));
