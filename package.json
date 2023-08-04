@@ -10,7 +10,8 @@
     "@solenopsys/fl-hyperstreams": "^0.1.0"
   },
 
-  "scripts": {
-    "build": "vbuild"
-  }
+   "scripts": {
+    "build": "vite build  -c ../../../lib.config.js"
+  },
+  "type": "module"
 }
